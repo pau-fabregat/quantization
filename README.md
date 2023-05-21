@@ -9,6 +9,8 @@
 |        | MoviNet  [[ckpt](https://github.com/pau-fabregat/quantization/blob/main/qat_checkpoints/qat_movinet_a0.ckpt) \| [ptl](https://github.com/pau-fabregat/quantization/blob/main/deployed_models/movinet_a0_1s6f.ptl)] |   a0    |  87.2   |    -     |
 |        | MoviNet  [[ckpt](https://github.com/pau-fabregat/quantization/blob/main/qat_checkpoints/qat_movinet_a1.ckpt) \| [ptl](https://github.com/pau-fabregat/quantization/blob/main/deployed_models/movinet_a1_1s6f.ptl)] |   a1    |  91.2   |    -     |
 
-<sup>1</sup> See Weights&Biases report.
+<sup>1</sup> See [Weights&Biases report](https://api.wandb.ai/links/paufabregat/gjyymmjx).
+
 <sup>2</sup> See logs in the test_logs folder. Video models have not been tested as deployed versions seem not to work properly.
+
 The number of necessary FLOPS can be registered with the FV-Core library ([see this](https://github.com/facebookresearch/fvcore/blob/main/docs/flop_count.md)).
